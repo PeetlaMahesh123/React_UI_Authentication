@@ -2,6 +2,7 @@
   "name": "react-auth-ui",
   "version": "1.0.0",
   "description": "React Authentication UI with Login, Register, and OTP Verification",
+  "homepage": "https://YOUR_USERNAME.github.io/ReactUI",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
@@ -13,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
